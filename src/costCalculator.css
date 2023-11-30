@@ -41,7 +41,7 @@ h4{
 #output-results{
   border: solid 7px #17B162 ;
   color: #17B162;
-  border-radius: 0 0 0.8em 0.8em;
+  border-radius: 0 0 40 40 !important;
 
 }
 
@@ -89,6 +89,7 @@ h4{
   font-size: 0.9em;
   font-family: sans-serif;
   min-width: 400px;
+  width: 100%;
 
 }
 .styled-table th {
@@ -249,6 +250,16 @@ option {
   text-align: center;
 }
 
+#energy-use-row{
+  border-bottom: none !important;
+}
+#quote-btn-row{
+  background-color: white !important;
+}
+.quote-btn-data{
+  text-align: center;
+}
+
 @media only screen and (max-width: 600px) {
 body{
 margin: 0.5em;
@@ -273,4 +284,3 @@ margin: 0.5em;
     font-size: 1.5em;
   }
 }
-
